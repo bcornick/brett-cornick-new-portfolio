@@ -1,5 +1,5 @@
 .wallContainer {
-  width: 63%;
+  width: var(--panel-width);
   height: var(--panel-height);
   border-radius: var(--panel-border-radius);
   border: var(--panel-border-size) solid #fe00fe;
@@ -17,7 +17,7 @@
   overflow: hidden;
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-around;
   background-size: cover;
   background-position: center;

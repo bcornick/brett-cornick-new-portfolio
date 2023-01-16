@@ -24,3 +24,10 @@
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 999px) {
+  .socialBox {
+    padding: 3vw;
+    margin: 1.5vw 5vw;
+  }
+}

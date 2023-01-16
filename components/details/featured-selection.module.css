@@ -78,3 +78,26 @@
   transform: scale(1.136) translateX(35vw) translateY(9.8vw);
   transition: transform 1s, filter 1.7s !important;
 }
+
+@media (max-width: 1199px) {
+  .translate1 {
+    filter: contrast(1) opacity(0);
+    transform: scale(1.136) translateX(8.3vw) translateY(-2.2vw);
+    transition: transform 1s, filter 1.7s !important;
+  }
+  .translate2 {
+    filter: contrast(1) opacity(0);
+    transform: scale(1.136) translateX(39vw) translateY(-2.2vw);
+    transition: transform 1s, filter 1.7s !important;
+  }
+  .translate3 {
+    filter: contrast(1) opacity(0);
+    transform: scale(1.136) translateX(8.3vw) translateY(13.5vw);
+    transition: transform 1s, filter 1.7s !important;
+  }
+  .translate4 {
+    filter: contrast(1) opacity(0);
+    transform: scale(1.136) translateX(39vw) translateY(13.5vw);
+    transition: transform 1s, filter 1.7s !important;
+  }
+}

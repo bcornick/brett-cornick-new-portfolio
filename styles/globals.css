@@ -2,10 +2,13 @@
 
 :root {
   --panel-height: 30.5vw;
+  --panel-width: 63%;
   --panel-border-size: 1px;
   --panel-border-radius: 20px;
   --hover-translate: 2px;
   --fade-time: 1s;
+  --option-margin: 2.2vw;
+  --banner-width: 55vw;
 }
 
 * {
@@ -47,5 +50,21 @@ button {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 1199px) {
+  :root {
+    --panel-height: 42vw;
+    --panel-width: 70%;
+    --option-margin: 6vw;
+    --banner-width: 85vw;
+  }
+}
+
+@media (max-width: 999px) {
+  :root {
+    --panel-height: 65vh;
+    --banner-width: 85vw;
   }
 }

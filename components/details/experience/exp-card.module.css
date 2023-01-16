@@ -25,6 +25,7 @@
 }
 
 .imageContainer {
+  position: relative;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -32,15 +33,7 @@
 }
 
 .image {
-  position: relative;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  flex-shrink: 0;
+  object-fit: cover;
 }
 
 .textContainer {
@@ -121,4 +114,43 @@
   display: inline-block;
   width: 1.3em;
   margin-left: -1.3em;
+}
+
+@media (max-width: 1199px) {
+  .textContainer {
+    padding: 2vw;
+    line-height: 2.7vw;
+  }
+
+  .title {
+    font-size: 1.6vw;
+  }
+
+  .role {
+    font-size: 1.2vw;
+  }
+
+  .partTime,
+  .fullTime {
+    font-size: 1vw;
+    padding: 0.3vw 0.8vw;
+    margin-left: 1vw;
+  }
+
+  .date {
+    font-size: 1.2vw;
+  }
+
+  .hoverContent {
+    padding: 2vw;
+  }
+
+  .hoverContent h3 {
+    font-size: 1.5vw;
+  }
+
+  .highlights {
+    font-size: 1.1vw;
+    line-height: 2.5vw;
+  }
 }

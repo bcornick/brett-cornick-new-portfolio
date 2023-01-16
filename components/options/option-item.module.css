@@ -1,6 +1,6 @@
 .option {
   color: #68eaff;
-  margin: 2.2vw 0;
+  margin: var(--option-margin) 0;
   text-align: center;
 }
 
@@ -51,4 +51,23 @@
 .translate4 {
   transform: scale(0.88) translateX(-45.12vw) translateY(-12.45vw);
   transition: all 1s !important;
+}
+
+@media (max-width: 1199px) {
+  .translate1 {
+    transform: scale(0.88) translateX(-10.65vw) translateY(3.15vw);
+    transition: all 1s !important;
+  }
+  .translate2 {
+    transform: scale(0.88) translateX(-50.2vw) translateY(3.15vw);
+    transition: all 1s !important;
+  }
+  .translate3 {
+    transform: scale(0.88) translateX(-10.65vw) translateY(-17.45vw);
+    transition: all 1s !important;
+  }
+  .translate4 {
+    transform: scale(0.88) translateX(-50.2vw) translateY(-17.45vw);
+    transition: all 1s !important;
+  }
 }

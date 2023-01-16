@@ -15,8 +15,7 @@ const ExpCard = ({ experience }: ExpCardProps): JSX.Element => {
           className={classes.image}
           src={experience.image}
           alt={experience.title}
-          width={200}
-          height={183}
+          fill
         />
       </div>
       <div className={classes.textContainer}>
