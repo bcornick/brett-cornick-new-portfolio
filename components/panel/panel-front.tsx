@@ -13,8 +13,8 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
         className={classes.portrait}
         src="/site/brett.png"
         alt="brett-image"
-        height={400}
-        width={400}
+        height={425}
+        width={425}
         placeholder="blur"
         blurDataURL="/site/brett.png"
       />
