@@ -9,8 +9,8 @@ export default function useWindowSize() {
   // Initialize state with undefined width/height so server and client renders match
 
   const [windowSize, setWindowSize] = useState<WindowType>({
-    width: undefined,
-    height: undefined,
+    width: 1000,
+    height: 1000,
   });
 
   useEffect(() => {

@@ -13,7 +13,7 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
   const size = useWindowSize();
   return (
     <>
-      {size.width && size.width > 999 ? (
+      {size.width === undefined || size.width > 999 ? (
         <>
           <Image
             className={classes.portrait}
