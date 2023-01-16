@@ -57,7 +57,7 @@ const interests: Interest[] = [
     title: 'Digital Design',
     image: '/interests/digitaldesign.jpg',
     description:
-      'An outlet for creative expression that shapes our journey in the digital world',
+      'An outlet for creative expression that shapes our increasingly digitized world',
   },
   {
     title: 'Space Science',
