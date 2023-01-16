@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import useWindowDimensions from '../../hooks/useWindowDimensions';
+import useWindowSize from '../../hooks/useWindowSize';
 import brett from '../../public/site/brett.png';
 import MobileContent from './mobile-content';
 import classes from './panel-front.module.css';
@@ -10,11 +10,10 @@ interface FrontProps {
 }
 
 const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
-  const { height, width } = useWindowDimensions();
-
+  const size = useWindowSize();
   return (
     <>
-      {width > 999 ? (
+      {size.width && size.width > 999 ? (
         <>
           <Image
             className={classes.portrait}
