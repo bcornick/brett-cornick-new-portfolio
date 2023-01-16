@@ -5,6 +5,7 @@
   --panel-border-size: 1px;
   --panel-border-radius: 20px;
   --hover-translate: 2px;
+  --fade-time: 1s;
 }
 
 * {
@@ -35,12 +36,12 @@ button {
 
 .transparent {
   filter: opacity(0) !important;
-  transition: filter 1s;
+  transition: filter var(--fade-time);
 }
 
 .visible {
   filter: opacity(1) !important;
-  transition: filter 1s;
+  transition: filter var(--fade-time);
 }
 
 @media (prefers-color-scheme: dark) {

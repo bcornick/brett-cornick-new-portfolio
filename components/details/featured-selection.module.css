@@ -21,7 +21,7 @@
   font-size: 1.3vw;
   text-shadow: 0px 2px 5px #fe00fe;
   filter: opacity(0);
-  transition: filter 1s;
+  transition: filter var(--fade-time);
 }
 
 .iconModel {
@@ -54,7 +54,7 @@
   flex: 3 1 0;
   border-left: 2px solid #68eaff;
   filter: opacity(0);
-  transition: filter 1s;
+  transition: filter var(--fade-time);
   height: 80%;
 }
 

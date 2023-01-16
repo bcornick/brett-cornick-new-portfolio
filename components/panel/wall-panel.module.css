@@ -4,6 +4,7 @@
   border-radius: var(--panel-border-radius);
   border: var(--panel-border-size) solid #fe00fe;
   box-shadow: 0px 20px 45px 2px rgba(104, 234, 255, 0.4);
+  z-index: 1;
 }
 
 .flip {
@@ -13,6 +14,8 @@
 
 .front,
 .back {
+  overflow: hidden;
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -22,11 +25,11 @@
   height: calc(var(--panel-height) - 2 * var(--panel-border-size));
 }
 
-.front {
-  background-image: url('/site/hoops-bg.jpg');
+.bgImage {
+  object-fit: cover;
+  object-position: center;
 }
 
 .back {
   transform: rotateY(180deg);
-  background-image: url('/site/hoops-inverted-bg.jpg');
 }

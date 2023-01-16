@@ -1,4 +1,6 @@
 .main {
+  overflow: hidden;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -6,7 +8,11 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   min-height: 100vh;
-  background-image: url('/site/background.jpg');
   background-size: cover;
   background-position: bottom;
+}
+
+.bgImage {
+  object-fit: cover;
+  object-position: center;
 }

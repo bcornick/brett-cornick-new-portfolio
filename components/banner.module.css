@@ -3,6 +3,7 @@
   align-items: center;
   width: 55vw;
   cursor: pointer;
+  z-index: 1;
 }
 
 .name {

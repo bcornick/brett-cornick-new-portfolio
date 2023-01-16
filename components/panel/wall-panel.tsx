@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 
 import PanelBack from './panel-back';
 import PanelFront from './panel-front';
@@ -21,10 +22,26 @@ const WallPanel = (): JSX.Element => {
       }>
       {front ? (
         <div className={classes.front}>
+          <Image
+            className={classes.bgImage}
+            src="/site/hoops-bg.jpg"
+            alt="hoops background"
+            placeholder="blur"
+            blurDataURL="/site/hoops-bg.jpg"
+            fill
+          />
           <PanelFront onClick={handleClick} />
         </div>
       ) : (
         <div className={classes.back}>
+          <Image
+            className={classes.bgImage}
+            src="/site/hoops-inverted-bg.jpg"
+            alt="hoops background"
+            placeholder="blur"
+            blurDataURL="/site/hoops-inverted-bg.jpg"
+            fill
+          />
           <PanelBack />
         </div>
       )}
