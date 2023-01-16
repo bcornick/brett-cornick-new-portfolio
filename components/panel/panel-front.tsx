@@ -15,6 +15,8 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
         alt="brett-image"
         height={400}
         width={400}
+        placeholder="blur"
+        blurDataURL="/site/brett.png"
       />
       <div>
         <button

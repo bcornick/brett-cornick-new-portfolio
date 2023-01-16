@@ -4,7 +4,7 @@ const SiteHeader = () => {
   return (
     <Head>
       <meta
-        http-equiv="X-UA-Compatible"
+        httpEquiv="X-UA-Compatible"
         content="IE=edge,chrome=1"
       />
       <title>Brett Cornick</title>

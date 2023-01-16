@@ -8,23 +8,25 @@ interface SkillCardProps {
   skill: Skill;
 }
 
-const SkillCard = (props: SkillCardProps): JSX.Element => {
+const SkillCard = ({ skill }: SkillCardProps): JSX.Element => {
   return (
     <div className={classes.card}>
       <div className={classes.mainContent}>
         <Image
-          src={props.skill.image}
-          alt={props.skill.title}
+          src={skill.image}
+          alt={skill.title}
           height={200}
           width={200}
           className={classes.skillImage}
+          blurDataURL={skill.image}
+          placeholder="blur"
         />
-        <h3>{props.skill.title}</h3>
+        <h3>{skill.title}</h3>
       </div>
       <div className={classes.hoverContent}>
         <h3>Proficiency:</h3>
         <Stars
-          rating={props.skill.proficiency}
+          rating={skill.proficiency}
           totalStars={5}
         />
       </div>

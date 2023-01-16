@@ -17,6 +17,8 @@ const ExpCard = ({ experience }: ExpCardProps): JSX.Element => {
           alt={experience.title}
           width={500}
           height={300}
+          placeholder="blur"
+          blurDataURL={experience.image}
         />
       </div>
       <div className={classes.textContainer}>

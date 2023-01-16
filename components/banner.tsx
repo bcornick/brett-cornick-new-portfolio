@@ -20,6 +20,8 @@ const Banner = (): JSX.Element => {
         alt="Brett Cornick"
         width={2000}
         height={200}
+        placeholder="blur"
+        blurDataURL="/site/brett-cornick.png"
       />
     </div>
   );

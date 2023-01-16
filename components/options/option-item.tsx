@@ -56,6 +56,8 @@ const OptionItem = (props: OptionItemProps): JSX.Element => {
         alt={props.imageAlt}
         width={200}
         height={200}
+        placeholder="blur"
+        blurDataURL={props.image}
         className={
           isSelected
             ? `${classes.optionIcon} ${classes.transformer} ${translateClass}`
