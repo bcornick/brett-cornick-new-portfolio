@@ -24,8 +24,8 @@ const SocialBox = ({ social }: SocialBoxProps): JSX.Element => {
           alt={social.title}
           placeholder="blur"
           blurDataURL={`/contact/${social.title}.png`}
-          width={80}
-          height={80}
+          width={70}
+          height={70}
         />
       </div>
     </Link>
