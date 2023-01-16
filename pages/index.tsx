@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import background from '../public/site/background.jpg';
 import Banner from '../components/banner';
 import WallPanel from '../components/panel/wall-panel';
 import SiteHeader from '../components/site-header';
@@ -12,10 +13,9 @@ export default function Home() {
       <main className={classes.main}>
         <Image
           className={classes.bgImage}
-          src="/site/background.jpg"
+          src={background}
           alt="site background"
           placeholder="blur"
-          blurDataURL="/site/background.jpg"
           fill
         />
         <Banner />

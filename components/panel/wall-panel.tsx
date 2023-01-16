@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
+import hoops from '../../public/site/hoops-bg.jpg';
+import hoopsInverted from '../../public/site/hoops-inverted-bg.jpg';
 import PanelBack from './panel-back';
 import PanelFront from './panel-front';
 
@@ -24,10 +26,9 @@ const WallPanel = (): JSX.Element => {
         <div className={classes.front}>
           <Image
             className={classes.bgImage}
-            src="/site/hoops-bg.jpg"
+            src={hoops}
             alt="hoops background"
             placeholder="blur"
-            blurDataURL="/site/hoops-bg.jpg"
             fill
           />
           <PanelFront onClick={handleClick} />
@@ -36,10 +37,9 @@ const WallPanel = (): JSX.Element => {
         <div className={classes.back}>
           <Image
             className={classes.bgImage}
-            src="/site/hoops-inverted-bg.jpg"
+            src={hoopsInverted}
             alt="hoops background"
             placeholder="blur"
-            blurDataURL="/site/hoops-inverted-bg.jpg"
             fill
           />
           <PanelBack />

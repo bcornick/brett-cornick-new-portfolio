@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
+import brettCornick from '../public/site/brett-cornick.png';
 import classes from './banner.module.css';
 
 const Banner = (): JSX.Element => {
@@ -16,12 +17,11 @@ const Banner = (): JSX.Element => {
       onClick={handleRefresh}>
       <Image
         className={classes.name}
-        src="/site/brett-cornick.png"
+        src={brettCornick}
         alt="Brett Cornick"
         width={1000}
         height={190}
         placeholder="blur"
-        blurDataURL="/site/brett-cornick.png"
       />
     </div>
   );

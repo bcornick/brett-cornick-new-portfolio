@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import brett from '../../public/site/brett.png';
 import classes from './panel-front.module.css';
 
 interface FrontProps {
@@ -11,12 +12,11 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
     <>
       <Image
         className={classes.portrait}
-        src="/site/brett.png"
+        src={brett}
         alt="brett-image"
         height={425}
         width={425}
         placeholder="blur"
-        blurDataURL="/site/brett.png"
       />
       <div>
         <button
