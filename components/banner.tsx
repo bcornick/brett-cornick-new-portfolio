@@ -18,8 +18,8 @@ const Banner = (): JSX.Element => {
         className={classes.name}
         src="/site/brett-cornick.png"
         alt="Brett Cornick"
-        width={2000}
-        height={200}
+        width={1200}
+        height={228}
         placeholder="blur"
         blurDataURL="/site/brett-cornick.png"
       />
