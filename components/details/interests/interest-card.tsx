@@ -22,7 +22,14 @@ const InterestCard = ({ interest }: InterestCardProps): JSX.Element => {
         <div className={classes.title}>{interest.title}</div>
       </div>
       <div className={classes.hoverContent}>
-        <h3>{interest.description}</h3>
+        <h3
+          className={
+            interest.description.length < 15
+              ? classes.emojis
+              : classes.description
+          }>
+          {interest.description}
+        </h3>
       </div>
     </div>
   );

@@ -9,73 +9,71 @@ const interests: Interest[] = [
     title: 'Sustainability',
     image: '/interests/sustainability.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'Not just a choice, but a responsibility we owe to future generations',
   },
   {
     title: 'Web3 & DeFi',
     image: '/interests/web3.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'A powerful catalyst for financial inclusion and a more equitable global economy',
   },
   {
     title: 'Cryptography',
     image: '/interests/cryptography.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'The backbone of our digital age, protecting our privacy and freedom of information',
   },
   {
     title: 'Generative AI',
     image: '/interests/generativeAI.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'The foundation for a Cambrian explosion of creativity, innovation, and progress',
   },
   {
     title: 'Regenerative Systems',
     image: '/interests/regen.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'Nature-inspired holistic systems where doing well is synonymous with doing good',
   },
   {
     title: 'Game Theory',
     image: '/interests/gametheory.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'A lens to decode the complexity of human behavior for efficient system design',
   },
   {
     title: 'MEV',
     image: '/interests/mev.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'A tool to minimize inefficiency in distributed systems and incentivize rational actors',
   },
   {
     title: 'Decentralized Science',
     image: '/interests/desci.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'The future of research, where collaboration and open data enable global breakthroughs',
   },
   {
     title: 'Digital Design',
     image: '/interests/digitaldesign.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'An outlet for creative expression that shapes our experience in the digital world',
   },
   {
     title: 'Space Science',
     image: '/interests/spacescience.jpg',
     description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+      'The basis for understanding our place in the universe and a reminder to dream big',
   },
   {
     title: 'Snowboarding',
     image: '/interests/snowboarding.jpg',
-    description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+    description: '🏂 🏔️ 🤙🏻',
   },
   {
     title: 'Music Production',
     image: '/interests/musicproduction.jpg',
-    description:
-      'dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text ',
+    description: '🎵 🔊 🎧',
   },
 ];
 
