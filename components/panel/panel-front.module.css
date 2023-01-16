@@ -1,0 +1,76 @@
+.meetBtn {
+  margin: 50% 2vw;
+  position: relative;
+  background: none;
+  font-size: 3.5vw;
+  border: none;
+  color: #fff;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #fe00fe, 0 0 0.5em #fe00fe,
+    0 0 0.1em #fe00fe, 0 2px 3px #262c8c;
+  -webkit-text-stroke: 1px #68eaff;
+  animation: blink linear infinite 2s;
+  cursor: pointer;
+}
+
+.meetBtn:hover {
+  color: #fff;
+  animation: none;
+  transform: rotate(-1deg);
+  text-shadow: 0 0 1em #68eaff;
+}
+
+.meetBtn::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 85%;
+  height: 3px;
+  border-radius: 10px;
+  bottom: -3px;
+  left: 7.5%;
+  background-image: linear-gradient(to right, #68eaff, #fe00fe);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.meetBtn:hover::before {
+  transform: scaleX(1);
+}
+
+.portrait {
+  width: 46%;
+  height: auto;
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #262c8c;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #262c8c;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #262c8c;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}

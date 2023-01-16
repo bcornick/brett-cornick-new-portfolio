@@ -1,0 +1,32 @@
+.wallContainer {
+  width: 63%;
+  height: var(--panel-height);
+  border-radius: var(--panel-border-radius);
+  border: var(--panel-border-size) solid #fe00fe;
+  box-shadow: 0px 20px 45px 2px rgba(104, 234, 255, 0.4);
+}
+
+.flip {
+  transform: rotateY(180deg);
+  transition: transform 0.3s;
+}
+
+.front,
+.back {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--panel-border-radius);
+  height: calc(var(--panel-height) - 2 * var(--panel-border-size));
+}
+
+.front {
+  background-image: url('/site/hoops-bg.jpg');
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-image: url('/site/hoops-inverted-bg.jpg');
+}

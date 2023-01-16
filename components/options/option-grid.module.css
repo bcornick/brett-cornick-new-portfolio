@@ -1,0 +1,4 @@
+.outerBox {
+  filter: opacity(0);
+  transition: filter 1s;
+}

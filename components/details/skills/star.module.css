@@ -1,0 +1,13 @@
+.filledStar,
+.emptyStar {
+  margin: 0 2px;
+  font-size: 1.3vw;
+}
+
+.filledStar {
+  color: #68eaff;
+}
+
+.emptyStar {
+  color: rgba(255, 255, 255, 0.4);
+}

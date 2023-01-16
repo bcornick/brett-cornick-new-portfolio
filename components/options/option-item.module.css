@@ -1,0 +1,54 @@
+.option {
+  color: #68eaff;
+  margin: 2.2vw 0;
+  text-align: center;
+}
+
+.option h3 {
+  font-size: 1.75vw;
+  text-shadow: 0px 2px 5px #fe00fe;
+  filter: opacity(0.8);
+  transition: all 0.3s;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+.option:hover > .optionIcon {
+  filter: contrast(1.7);
+}
+
+.option:hover > h3 {
+  filter: opacity(1);
+  text-shadow: 0px 5px 5px #fe00fe;
+}
+
+.optionIcon {
+  width: 9.1vw;
+  height: auto;
+  margin-bottom: 0.2vw;
+  transition: all 0.5s;
+}
+
+.transformer {
+  cursor: default;
+  filter: contrast(1.7);
+}
+
+.translate1 {
+  transform: scale(0.88) translateX(-9.57vw) translateY(3.53vw);
+  transition: all 1s !important;
+}
+.translate2 {
+  transform: scale(0.88) translateX(-45.12vw) translateY(3.53vw);
+  transition: all 1s !important;
+}
+.translate3 {
+  transform: scale(0.88) translateX(-9.57vw) translateY(-12.45vw);
+  transition: all 1s !important;
+}
+.translate4 {
+  transform: scale(0.88) translateX(-45.12vw) translateY(-12.45vw);
+  transition: all 1s !important;
+}

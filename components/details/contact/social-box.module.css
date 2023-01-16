@@ -1,0 +1,26 @@
+.socialBox {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(38, 44, 140, 0.6);
+  box-shadow: 0px 0px 8px 1px rgba(0, 32, 96, 0.85);
+  border-radius: 10px;
+  padding: 2vw;
+  margin: 1vw;
+  filter: opacity(0.75);
+  transition: all 0.3s;
+}
+
+.socialBox:hover {
+  background-color: rgba(38, 44, 140, 1);
+  transform: translateY(var(--hover-translate));
+  box-shadow: 0px 0px 4px 0px rgba(0, 32, 96, 0.85);
+  filter: opacity(1);
+  transition: all 0.2s;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+}

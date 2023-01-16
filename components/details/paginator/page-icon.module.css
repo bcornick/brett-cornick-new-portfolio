@@ -1,0 +1,15 @@
+.page {
+  width: 0.6rem;
+  border: 1px solid #68eaff;
+  flex: 1;
+  border-radius: 40px;
+  margin: 30% 0;
+}
+
+.page.current {
+  background-color: #68eaff;
+}
+
+.page:hover {
+  cursor: pointer;
+}
