@@ -21,7 +21,6 @@ const Banner = (): JSX.Element => {
         alt="Brett Cornick"
         width={1000}
         height={190}
-        placeholder="blur"
       />
     </div>
   );

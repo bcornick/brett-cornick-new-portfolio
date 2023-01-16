@@ -61,8 +61,6 @@ const FeaturedSelection = (props: FeaturedSelectionProps): JSX.Element => {
             alt={props.selection.imageAlt}
             width={175}
             height={175}
-            placeholder="blur"
-            blurDataURL={props.selection.image}
             className={
               !goingBack
                 ? classes.iconModel

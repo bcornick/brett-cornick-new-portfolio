@@ -18,8 +18,6 @@ const SkillCard = ({ skill }: SkillCardProps): JSX.Element => {
           height={130}
           width={130}
           className={classes.skillImage}
-          blurDataURL={skill.image}
-          placeholder="blur"
         />
         <h3>{skill.title}</h3>
       </div>

@@ -15,8 +15,6 @@ const InterestCard = ({ interest }: InterestCardProps): JSX.Element => {
         src={interest.image}
         alt={interest.title}
         fill
-        placeholder="blur"
-        blurDataURL={interest.image}
       />
       <div className={classes.textContainer}>
         <div className={classes.title}>{interest.title}</div>

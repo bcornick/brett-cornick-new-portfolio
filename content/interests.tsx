@@ -27,7 +27,7 @@ const interests: Interest[] = [
     title: 'Generative AI',
     image: '/interests/generativeAI.jpg',
     description:
-      'The foundation for a Cambrian explosion of creativity, innovation, and progress',
+      'The spark for a Cambrian explosion of creativity, innovation, and progress',
   },
   {
     title: 'Regenerative Systems',
@@ -51,13 +51,13 @@ const interests: Interest[] = [
     title: 'Decentralized Science',
     image: '/interests/desci.jpg',
     description:
-      'The future of research, where collaboration and open data enable global breakthroughs',
+      'The future of research, where collaboration and open data enable global discovery',
   },
   {
     title: 'Digital Design',
     image: '/interests/digitaldesign.jpg',
     description:
-      'An outlet for creative expression that shapes our experience in the digital world',
+      'An outlet for creative expression that shapes our journey in the digital world',
   },
   {
     title: 'Space Science',
