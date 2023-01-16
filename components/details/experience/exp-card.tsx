@@ -34,21 +34,29 @@ const ExpCard = ({ experience }: ExpCardProps): JSX.Element => {
         </div>
         <div className={classes.date}>
           Start:{' '}
-          {experience.start.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
+          {experience.start
+            .toLocaleDateString('en-UK', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })
+            .split(' ')
+            .slice(1)
+            .join(' ')}
         </div>
         <div className={classes.date}>
           End:{' '}
           {typeof experience.end === 'string'
             ? experience.end
-            : experience.end.toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
+            : experience.end
+                .toLocaleDateString('en-UK', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })
+                .split(' ')
+                .slice(1)
+                .join(' ')}
         </div>
       </div>
       <div className={classes.hoverContent}>

@@ -22,8 +22,8 @@ const SocialBox = ({ social }: SocialBoxProps): JSX.Element => {
           className={classes.icon}
           src={`/contact/${social.title}.png`}
           alt={social.title}
-          width={70}
-          height={70}
+          width={50}
+          height={50}
         />
       </div>
     </Link>
