@@ -90,7 +90,7 @@
   text-align: left;
   position: fixed;
   display: none;
-  padding: 2vw;
+  padding: 1.5vw;
   width: 100%;
   height: 100%;
   top: 0;
@@ -103,12 +103,22 @@
 }
 
 .hoverContent h3 {
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 
 .highlights {
   margin: 0.5vw 0 0 1vw;
   filter: opacity(0.8);
-  line-height: 1.7vw;
+  line-height: 1.8vw;
   font-size: 1vw;
+  list-style: none;
+}
+
+.highlights li::before {
+  content: '\2192';
+  color: #68eaff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.3em;
+  margin-left: -1em;
 }
