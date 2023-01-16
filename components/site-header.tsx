@@ -44,7 +44,7 @@ const SiteHeader = () => {
       />
       <meta
         name="twitter:image"
-        content="https://www.brettcornick.com/meta/meta-image.jpg"
+        content="https://www.brettcornick.com/_next/image?url=%2Fsite%2Fmeta-image.jpg&w=1200&q=75"
       />
 
       {/* <!-- Open Graph Meta Tags --> */}
@@ -70,7 +70,7 @@ const SiteHeader = () => {
       />
       <meta
         property="og:image"
-        content="https://www.brettcornick.com/meta/meta-image.jpg"
+        content="https://www.brettcornick.com/_next/image?url=%2Fsite%2Fmeta-image.jpg&w=1200&q=75"
       />
     </Head>
   );
