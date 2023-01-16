@@ -23,6 +23,7 @@ body {
   overflow-x: hidden;
   background-color: #262c8c;
   font-family: 'Sonsie One', cursive;
+  color: white;
 }
 
 a,
@@ -45,12 +46,6 @@ button {
 .visible {
   filter: opacity(1) !important;
   transition: filter var(--fade-time);
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
 
 @media (max-width: 1199px) {
