@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import useWindowSize from '../../hooks/useWindowSize';
-import brett from '../../public/site/brett.png';
+import brett from '../../public/site/brett-toon.png';
 import MobileContent from './mobile-content';
 import classes from './panel-front.module.css';
 
@@ -18,7 +18,7 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
           <Image
             className={classes.portrait}
             src={brett}
-            alt="brett-image"
+            alt="brett-toon"
             height={425}
             width={425}
             placeholder="blur"
