@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 import hoops from '../../public/site/hoops-bg.jpg';
-import hoopsInverted from '../../public/site/hoops-inverted-bg.jpg';
 import PanelBack from './panel-back';
 import PanelFront from './panel-front';
 
