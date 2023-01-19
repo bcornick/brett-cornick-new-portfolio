@@ -32,7 +32,11 @@ const SiteHeader = () => {
       />
       <meta
         name="twitter:site"
-        content="@Brett_Cornick"
+        content="@brett_cornick"
+      />
+      <meta
+        name="twitter:creator"
+        content="@brett_cornick"
       />
       <meta
         name="twitter:title"
