@@ -1,6 +1,7 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: var(--banner-width);
   cursor: pointer;
   z-index: 1;
