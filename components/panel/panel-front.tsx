@@ -22,7 +22,6 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
             alt="brett-cartoon"
             height={425}
             width={425}
-            placeholder="blur"
           />
           <Hexagons />
           <div>
