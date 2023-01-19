@@ -11,9 +11,9 @@ const Hexagons = (): JSX.Element => {
 
   return (
     <div className={classes.hexContainer}>
-      {hexArray.map(hex => (
+      {hexArray.map((hex, i) => (
         <Image
-          key={Math.random()}
+          key={i}
           className={classes.hexagon}
           src={hexagon}
           alt="hexagon"

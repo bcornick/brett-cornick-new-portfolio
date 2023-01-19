@@ -61,8 +61,8 @@ const ExpCard = ({ experience }: ExpCardProps): JSX.Element => {
       <div className={classes.hoverContent}>
         <h3>Highlights:</h3>
         <ul className={classes.highlights}>
-          {experience.highlights.map(highlight => (
-            <li key={Math.random()}>{highlight}</li>
+          {experience.highlights.map((highlight, i) => (
+            <li key={i}>{highlight}</li>
           ))}
         </ul>
       </div>

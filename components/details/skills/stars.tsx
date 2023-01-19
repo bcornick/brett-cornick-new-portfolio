@@ -17,9 +17,9 @@ const Stars = (props: StarsProps): JSX.Element => {
 
   return (
     <div className={classes.starContainer}>
-      {fillValues.map(value => (
+      {fillValues.map((value, i) => (
         <Star
-          key={Math.random()}
+          key={i}
           filled={value}
         />
       ))}
