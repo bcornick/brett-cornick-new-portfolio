@@ -1,6 +1,6 @@
 ## Welcome to my Personal Portfolio
 
-This site was created using NextJS and Typescript. All graphics were created by me using Figma and Stability AI.
+This site was created using NextJS and Typescript. All graphics were created by me using Figma and Stable Diffusion generative AI.
 
 View the live site at [brettcornick.com](https://www.brettcornick.com)
 
