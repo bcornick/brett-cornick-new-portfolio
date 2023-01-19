@@ -1,7 +1,8 @@
 import Image from 'next/image';
 
 import useWindowSize from '../../hooks/useWindowSize';
-import brett from '../../public/site/brett-cartoon.png';
+import Hexagons from './hexagons';
+import brett from '../../public/site/brett-test.png';
 import MobileContent from './mobile-content';
 import classes from './panel-front.module.css';
 
@@ -23,6 +24,7 @@ const PanelFront = ({ onClick }: FrontProps): JSX.Element => {
             width={425}
             placeholder="blur"
           />
+          <Hexagons />
           <div>
             <button
               className={classes.meetBtn}
