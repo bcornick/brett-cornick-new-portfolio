@@ -9,6 +9,7 @@
   --fade-time: 1s;
   --option-margin: 2.2vw;
   --banner-width: 55vw;
+  --footer-size: 1vw;
 }
 
 * {
@@ -54,6 +55,7 @@ button {
     --panel-width: 70%;
     --option-margin: 6vw;
     --banner-width: 85vw;
+    --footer-size: 1.4vw;
   }
 }
 
