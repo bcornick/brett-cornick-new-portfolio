@@ -20,6 +20,18 @@ export default function Home() {
         />
         <Banner />
         <WallPanel />
+        <p className={classes.sub}>
+          This page was built using Figma & NextJS + Typescript. View the Github
+          repo{' '}
+          <a
+            className={classes.gitlink}
+            href="https://github.com/bcornick/brett-cornick-new-portfolio"
+            target="_blank"
+            rel="noreferrer">
+            here
+          </a>
+          .
+        </p>
       </main>
     </>
   );

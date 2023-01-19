@@ -16,3 +16,21 @@
   object-fit: cover;
   object-position: center;
 }
+
+.sub {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9vw;
+  filter: opacity(0.85);
+}
+
+.gitlink {
+  color: #68eaff;
+  transition: all 0.3s;
+}
+
+.gitlink:hover {
+  filter: opacity(0.6);
+  transition: all 0.3s;
+}
