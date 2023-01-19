@@ -6,8 +6,8 @@ const MobileContent = () => {
     <div className={classes.socialContainer}>
       <p className={classes.header}>Thanks for visiting my page!</p>
       <p className={classes.subheader}>
-        Connect with me through my socials below, and view this page on desktop
-        to see my full portfolio.
+        Connect with me through my socials below, and{' '}
+        <span>view this page on desktop</span> to see my full portfolio.
       </p>
       <div className={classes.row}>
         <SocialBox

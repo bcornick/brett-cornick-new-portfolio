@@ -21,6 +21,10 @@
   filter: opacity(0.8);
 }
 
+.subheader span {
+  color: #68eaff;
+}
+
 .row {
   display: flex;
 }
