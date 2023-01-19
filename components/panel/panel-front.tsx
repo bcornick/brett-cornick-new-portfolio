@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import useWindowSize from '../../hooks/useWindowSize';
 import Hexagons from './hexagons';
-import brett from '../../public/site/brett-test.png';
+import brett from '../../public/site/brett-cartoonified.png';
 import MobileContent from './mobile-content';
 import classes from './panel-front.module.css';
 
