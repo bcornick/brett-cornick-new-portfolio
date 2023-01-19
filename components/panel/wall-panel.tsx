@@ -25,7 +25,7 @@ const WallPanel = (): JSX.Element => {
       {front ? (
         <div className={classes.front}>
           <Image
-            className={classes.bgImage}
+            className={classes.bgFront}
             src={hoops}
             alt="hoops background"
             placeholder="blur"
@@ -36,8 +36,8 @@ const WallPanel = (): JSX.Element => {
       ) : (
         <div className={classes.back}>
           <Image
-            className={classes.bgImage}
-            src={hoopsInverted}
+            className={classes.bgBack}
+            src={hoops}
             alt="hoops background"
             placeholder="blur"
             fill

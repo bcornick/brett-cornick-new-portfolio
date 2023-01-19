@@ -25,11 +25,13 @@
   height: calc(var(--panel-height) - 2 * var(--panel-border-size));
 }
 
-.bgImage {
+.bgFront,
+.bgBack {
   object-fit: cover;
   object-position: center;
 }
 
-.back {
+.back,
+.bgBack {
   transform: rotateY(180deg);
 }
