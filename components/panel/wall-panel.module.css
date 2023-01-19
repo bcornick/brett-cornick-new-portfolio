@@ -2,7 +2,7 @@
   width: var(--panel-width);
   height: var(--panel-height);
   border-radius: var(--panel-border-radius);
-  border: var(--panel-border-size) solid #fe00fe;
+  border: var(--panel-border-size) solid rgba(254, 0, 254, 0.5);
   box-shadow: 0px 20px 45px 2px rgba(104, 234, 255, 0.4);
   z-index: 1;
 }
