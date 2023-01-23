@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, Fragment } from 'react';
 import skills from '../../../content/skills';
 import classes from './skills-box.module.css';
 import SkillRow from './skill-row';
@@ -31,10 +31,10 @@ const SkillsBox = (props: SkillsBoxProps): JSX.Element => {
       {pageArray.map(
         page =>
           props.page === page + 1 && (
-            <>
+            <Fragment key={page}>
               <SkillRow skills={groupedArray[(page + 1) * 2 - 2]} />
               <SkillRow skills={groupedArray[(page + 1) * 2 - 1]} />
-            </>
+            </Fragment>
           )
       )}
     </div>

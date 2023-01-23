@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, Fragment } from 'react';
 
 import interests from '../../../content/interests';
 import InterestRow from './interest-row';
@@ -32,10 +32,10 @@ const InterestBox = (props: InterestBoxProps): JSX.Element => {
       {pageArray.map(
         page =>
           props.page === page + 1 && (
-            <>
+            <Fragment key={page}>
               <InterestRow interests={groupedArray[(page + 1) * 2 - 2]} />
               <InterestRow interests={groupedArray[(page + 1) * 2 - 1]} />
-            </>
+            </Fragment>
           )
       )}
     </div>

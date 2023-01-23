@@ -18,6 +18,8 @@ const Hexagons = (): JSX.Element => {
           src={hexagon}
           alt="hexagon"
           fill
+          sizes="
+              33vw"
         />
       ))}
     </div>

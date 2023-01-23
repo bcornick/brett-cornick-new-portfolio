@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, Fragment } from 'react';
 
 import experiences from '../../../content/experiences';
 import ExpRow from './exp-row';
@@ -32,10 +32,10 @@ const ExpBox = (props: ExpBoxProps): JSX.Element => {
       {pageArray.map(
         page =>
           props.page === page + 1 && (
-            <>
+            <Fragment key={page}>
               <ExpRow experiences={groupedArray[(page + 1) * 2 - 2]} />
               <ExpRow experiences={groupedArray[(page + 1) * 2 - 1]} />
-            </>
+            </Fragment>
           )
       )}
     </div>
