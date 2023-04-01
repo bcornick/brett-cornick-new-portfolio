@@ -13,7 +13,7 @@ const skills: Skill[] = [
   { title: 'PYTHON', image: '/skills/python.png', proficiency: 3 },
   { title: 'REACT JS', image: '/skills/react.png', proficiency: 4 },
   { title: 'NEXT JS', image: '/skills/nextjs.png', proficiency: 4 },
-  { title: 'SOLIDITY', image: '/skills/solidity.png', proficiency: 2 },
+  { title: 'SOLIDITY', image: '/skills/solidity.png', proficiency: 3 },
   { title: 'FIGMA', image: '/skills/figma.png', proficiency: 4 },
   { title: 'NOTION', image: '/skills/notion.png', proficiency: 4 },
   { title: 'DISCORD', image: '/skills/discord.png', proficiency: 4 },
